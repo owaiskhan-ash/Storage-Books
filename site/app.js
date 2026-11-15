@@ -22,7 +22,6 @@ const elements = {
 const treeUrl = `https://api.github.com/repos/${REPOSITORY}/git/trees/${encodeURIComponent(BRANCH)}?recursive=1`;
 const icons = {
   folder: '<svg aria-hidden="true" viewBox="0 0 24 24" fill="none"><path d="M3.5 6.5h6l2 2h9v9.5a2 2 0 0 1-2 2h-13a2 2 0 0 1-2-2z"></path></svg>',
-  external: '<svg aria-hidden="true" viewBox="0 0 24 24" fill="none"><path d="M8 5H5v14h14v-3M13 5h6v6M19 5l-9 9"></path></svg>',
   eye: '<svg aria-hidden="true" viewBox="0 0 24 24" fill="none"><path d="M2.5 12s3.4-5.5 9.5-5.5 9.5 5.5 9.5 5.5-3.4 5.5-9.5 5.5S2.5 12 2.5 12z"></path><circle cx="12" cy="12" r="2.5"></circle></svg>',
   download: '<svg aria-hidden="true" viewBox="0 0 24 24" fill="none"><path d="M12 3v12m-4-4 4 4 4-4M5 17v3h14v-3"></path></svg>',
   file: '<svg aria-hidden="true" viewBox="0 0 24 24" fill="none"><path d="M6 3.5h8l4 4V20H6zM14 3.5v4h4"></path></svg>',
@@ -124,14 +123,7 @@ function makeCard(collection) {
   const details = [plural(collection.images.length, 'image'), formatFileSize(collection.bytes)].filter(Boolean);
   const subtitle = makeElement('p', 'card-subtitle', details.join(' · '));
   headingText.append(title, subtitle);
-  const githubLink = makeElement('a', 'icon-button github-link');
-  githubLink.href = `https://github.com/${REPOSITORY}/tree/${encodeURIComponent(BRANCH)}/${encodePath(collection.name)}`;
-  githubLink.target = '_blank';
-  githubLink.rel = 'noopener noreferrer';
-  githubLink.setAttribute('aria-label', `Open ${collection.name} on GitHub (opens in a new tab)`);
-  githubLink.title = 'Open folder on GitHub';
-  githubLink.innerHTML = icons.external;
-  heading.append(folderIcon, headingText, githubLink);
+  heading.append(folderIcon, headingText);
 
   // The preview area is a button too, so it works like opening a Drive folder.
   const previewArea = makeElement('button', 'card-preview');
@@ -276,7 +268,7 @@ async function downloadCollection(collection, button, status) {
   } catch (error) {
     console.error('Folder download failed:', error);
     status.classList.add('is-error');
-    status.textContent = 'Couldn’t prepare the ZIP. Try again or open the folder on GitHub.';
+    status.textContent = 'Couldn’t prepare the ZIP. Please try again.';
   } finally {
     button.disabled = false;
     label.textContent = 'Download';
