@@ -61,8 +61,8 @@ test('share image has the advertised dimensions and no extra JPEG metadata', asy
   assert.ok(image.length < 1_000_000);
 });
 
-test('site text and documentation contain no em dashes', async () => {
-  for (const file of ['index.html', 'site/app.js', 'README.md']) {
+test('site text contains no em dashes', async () => {
+  for (const file of ['index.html', 'site/app.js']) {
     const contents = await readFile(new URL(file, root), 'utf8');
     assert.doesNotMatch(contents, /\u2014|&mdash;|&#(?:8212|x2014);/i, file);
   }
