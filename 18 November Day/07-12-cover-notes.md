@@ -4,7 +4,7 @@ Same pipeline as the 01-06 batch. Each completed image was generated from its ow
 
 The photos of No. 07 (Portly Pig) and No. 08 (On with the Show!) were rotated 90 degrees in the camera; both books are landscape board books and are shown standing upright on their long bottom edge with the covers correctly oriented and readable. The supplied scannable promo badge on No. 11 (Lola the Lollipop Fairy) is part of the printed cover design and is kept as photographed. No written-in price stickers were present on these covers.
 
-**No. 08 (On with the Show!) remains ungenerated — the image generator consistently fails on this cover (see PR notes). No. 09 (The Ultimate Colouring Book) was generated in the follow-up batch.**
+**No. 08 (On with the Show!) remains ungenerated — the image generator consistently fails on this cover across every attempt in three turns. No. 09 (The Ultimate Colouring Book) was generated in the follow-up batch.**
 
 | No. and title | Genre and theme | Mood and dominant colors | Characters, symbols, typography and visual story |
 | --- | --- | --- | --- |
