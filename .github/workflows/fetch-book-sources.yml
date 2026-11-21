@@ -9,12 +9,16 @@ on:
       - .github/workflows/fetch-book-sources.yml
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   fetch:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: arena/f622c133-storage-books
+
       - name: Download the first ten public storage objects
         shell: python
         run: |
@@ -36,8 +40,8 @@ jobs:
               "Day 23 November/IMG20261120105248.jpg",
               "Day 23 November/IMG20261120105258.jpg",
           ]
-          output = Path("source-covers")
-          output.mkdir()
+          output = Path(".source-transfer")
+          output.mkdir(exist_ok=True)
           for index, name in enumerate(names, 1):
               url = (
                   f"https://{project}.supabase.co/storage/v1/object/public/"
@@ -48,10 +52,10 @@ jobs:
               path.write_bytes(data)
               print(path, len(data))
 
-      - name: Upload temporary source artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: first-ten-source-covers
-          path: source-covers/*.jpg
-          if-no-files-found: error
-          retention-days: 1
+      - name: Transfer sources through the working branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .source-transfer
+          git commit -m "Transfer temporary source covers"
+          git push origin HEAD:arena/f622c133-storage-books
