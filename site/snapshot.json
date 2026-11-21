@@ -1,206 +1,6 @@
 {
   "tree": [
     {
-      "path": "_covers_23nov/IMG20261118094530.jpg",
-      "type": "blob",
-      "size": 110151
-    },
-    {
-      "path": "_covers_23nov/IMG20261118094557.jpg",
-      "type": "blob",
-      "size": 134852
-    },
-    {
-      "path": "_covers_23nov/IMG20261118094638.jpg",
-      "type": "blob",
-      "size": 113923
-    },
-    {
-      "path": "_covers_23nov/IMG20261118094652.jpg",
-      "type": "blob",
-      "size": 128266
-    },
-    {
-      "path": "_covers_23nov/IMG20261118094707.jpg",
-      "type": "blob",
-      "size": 150111
-    },
-    {
-      "path": "_covers_23nov/IMG20261118094718.jpg",
-      "type": "blob",
-      "size": 159451
-    },
-    {
-      "path": "_covers_23nov/IMG20261118094731.jpg",
-      "type": "blob",
-      "size": 141084
-    },
-    {
-      "path": "_covers_23nov/IMG20261118094741.jpg",
-      "type": "blob",
-      "size": 97273
-    },
-    {
-      "path": "_covers_23nov/IMG20261118094802.jpg",
-      "type": "blob",
-      "size": 129972
-    },
-    {
-      "path": "_covers_23nov/IMG20261118094816.jpg",
-      "type": "blob",
-      "size": 108680
-    },
-    {
-      "path": "_covers_23nov/IMG20261118094828.jpg",
-      "type": "blob",
-      "size": 126093
-    },
-    {
-      "path": "_covers_23nov/IMG20261118094846.jpg",
-      "type": "blob",
-      "size": 118653
-    },
-    {
-      "path": "_covers_23nov/IMG20261118094901.jpg",
-      "type": "blob",
-      "size": 90897
-    },
-    {
-      "path": "_covers_23nov/IMG20261118094912.jpg",
-      "type": "blob",
-      "size": 115431
-    },
-    {
-      "path": "_covers_23nov/IMG20261118094926.jpg",
-      "type": "blob",
-      "size": 114686
-    },
-    {
-      "path": "_covers_23nov/IMG20261118094938.jpg",
-      "type": "blob",
-      "size": 99984
-    },
-    {
-      "path": "_covers_23nov/IMG20261118095016.jpg",
-      "type": "blob",
-      "size": 156109
-    },
-    {
-      "path": "_covers_23nov/IMG20261118095029.jpg",
-      "type": "blob",
-      "size": 125702
-    },
-    {
-      "path": "_covers_23nov/IMG20261118095039.jpg",
-      "type": "blob",
-      "size": 145078
-    },
-    {
-      "path": "_covers_23nov/IMG20261118095135.jpg",
-      "type": "blob",
-      "size": 143032
-    },
-    {
-      "path": "_covers_23nov/IMG20261118095240.jpg",
-      "type": "blob",
-      "size": 57240
-    },
-    {
-      "path": "_covers_23nov/IMG20261118095310.jpg",
-      "type": "blob",
-      "size": 145140
-    },
-    {
-      "path": "_covers_23nov/IMG20261118095351.jpg",
-      "type": "blob",
-      "size": 99000
-    },
-    {
-      "path": "_covers_23nov/IMG20261118095404.jpg",
-      "type": "blob",
-      "size": 108423
-    },
-    {
-      "path": "_covers_23nov/IMG20261118095417.jpg",
-      "type": "blob",
-      "size": 138039
-    },
-    {
-      "path": "_covers_23nov/IMG20261118095429.jpg",
-      "type": "blob",
-      "size": 149973
-    },
-    {
-      "path": "_covers_23nov/IMG20261118095441.jpg",
-      "type": "blob",
-      "size": 131313
-    },
-    {
-      "path": "_covers_23nov/IMG20261118095451.jpg",
-      "type": "blob",
-      "size": 170741
-    },
-    {
-      "path": "_covers_23nov/IMG20261118095502.jpg",
-      "type": "blob",
-      "size": 144252
-    },
-    {
-      "path": "_covers_23nov/IMG20261118095515.jpg",
-      "type": "blob",
-      "size": 134845
-    },
-    {
-      "path": "_covers_23nov/IMG20261118095525.jpg",
-      "type": "blob",
-      "size": 160513
-    },
-    {
-      "path": "_covers_23nov/IMG20261118095536.jpg",
-      "type": "blob",
-      "size": 158531
-    },
-    {
-      "path": "_covers_23nov/IMG20261118095545.jpg",
-      "type": "blob",
-      "size": 143989
-    },
-    {
-      "path": "_covers_23nov/IMG20261118095554.jpg",
-      "type": "blob",
-      "size": 152662
-    },
-    {
-      "path": "_covers_23nov/IMG20261118095605.jpg",
-      "type": "blob",
-      "size": 163437
-    },
-    {
-      "path": "_covers_23nov/IMG20261118095618.jpg",
-      "type": "blob",
-      "size": 110336
-    },
-    {
-      "path": "_covers_23nov/IMG20261118095633.jpg",
-      "type": "blob",
-      "size": 142818
-    },
-    {
-      "path": "_covers_23nov/IMG20261118095712.jpg",
-      "type": "blob",
-      "size": 143381
-    },
-    {
-      "path": "_covers_23nov/IMG20261118095729.jpg",
-      "type": "blob",
-      "size": 266712
-    },
-    {
-      "path": "_covers_23nov/IMG20261118095846.jpg",
-      "type": "blob",
-      "size": 96689
-    },
-    {
       "path": "12th Nov Day/.gitkeep",
       "type": "blob",
       "size": 0
@@ -2151,6 +1951,26 @@
       "size": 221441
     },
     {
+      "path": "23rd Nov Day/Edward the Very Useful Engine.jpg",
+      "type": "blob",
+      "size": 222873
+    },
+    {
+      "path": "23rd Nov Day/Green Eggs and Ham.jpg",
+      "type": "blob",
+      "size": 165280
+    },
+    {
+      "path": "23rd Nov Day/I Love You More.jpg",
+      "type": "blob",
+      "size": 208757
+    },
+    {
+      "path": "23rd Nov Day/Little Rabbit Waits for the Moon.jpg",
+      "type": "blob",
+      "size": 142181
+    },
+    {
       "path": "23rd Nov Day/Merry Christmas Little Elliot.jpg",
       "type": "blob",
       "size": 196719
@@ -2166,6 +1986,16 @@
       "size": 155916
     },
     {
+      "path": "23rd Nov Day/My First Words.jpg",
+      "type": "blob",
+      "size": 166046
+    },
+    {
+      "path": "23rd Nov Day/That's Not My Car.jpg",
+      "type": "blob",
+      "size": 131038
+    },
+    {
       "path": "23rd Nov Day/The Little Mermaid.jpg",
       "type": "blob",
       "size": 217180
@@ -2176,9 +2006,29 @@
       "size": 177465
     },
     {
+      "path": "23rd Nov Day/The Princess and the Pea.jpg",
+      "type": "blob",
+      "size": 182894
+    },
+    {
       "path": "23rd Nov Day/The Very Busy Farm.jpg",
       "type": "blob",
       "size": 180491
+    },
+    {
+      "path": "23rd Nov Day/Thomas and Friends Full Steam Ahead.jpg",
+      "type": "blob",
+      "size": 212354
+    },
+    {
+      "path": "23rd Nov Day/Thomas and Friends My First Library.jpg",
+      "type": "blob",
+      "size": 171045
+    },
+    {
+      "path": "23rd Nov Day/You're My Little Cuddle-Bug.jpg",
+      "type": "blob",
+      "size": 163281
     },
     {
       "path": "7th Nov Day/01-head-shoulders-knees-and-toes.jpg",
