@@ -1,0 +1,57 @@
+name: Fetch temporary book sources
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - arena/f622c133-storage-books
+    paths:
+      - .github/workflows/fetch-book-sources.yml
+
+permissions:
+  contents: read
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download the first ten public storage objects
+        shell: python
+        run: |
+          from pathlib import Path
+          from urllib.parse import quote
+          from urllib.request import urlopen
+
+          project = "vycvmsqjseeiiotjjbep"
+          bucket = "Red POly Website"
+          names = [
+              "Day 23 November/IMG20261120105103.jpg",
+              "Day 23 November/IMG20261120105114.jpg",
+              "Day 23 November/IMG20261120105126.jpg",
+              "Day 23 November/IMG20261120105137.jpg",
+              "Day 23 November/IMG20261120105149.jpg",
+              "Day 23 November/IMG20261120105204.jpg",
+              "Day 23 November/IMG20261120105223.jpg",
+              "Day 23 November/IMG20261120105238.jpg",
+              "Day 23 November/IMG20261120105248.jpg",
+              "Day 23 November/IMG20261120105258.jpg",
+          ]
+          output = Path("source-covers")
+          output.mkdir()
+          for index, name in enumerate(names, 1):
+              url = (
+                  f"https://{project}.supabase.co/storage/v1/object/public/"
+                  f"{quote(bucket, safe='')}/{quote(name, safe='/')}"
+              )
+              data = urlopen(url, timeout=60).read()
+              path = output / f"{index:02d}-{Path(name).name}"
+              path.write_bytes(data)
+              print(path, len(data))
+
+      - name: Upload temporary source artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: first-ten-source-covers
+          path: source-covers/*.jpg
+          if-no-files-found: error
+          retention-days: 1
