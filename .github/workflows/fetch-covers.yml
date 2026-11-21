@@ -1,0 +1,57 @@
+name: Fetch source covers (temporary)
+
+on:
+  push:
+    paths:
+      - '.github/workflows/fetch-covers.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          ref: ${{ github.ref_name }}
+
+      - name: Download and prepare covers
+        run: |
+          python3 -m pip install --quiet pillow
+          SUPABASE_URL="https://vycvmsqjseeiiotjjbep.supabase.co" python3 - <<'PY'
+          import os, io, urllib.parse, urllib.request
+          from PIL import Image
+
+          base = os.environ["SUPABASE_URL"]
+          bucket = "Red POly Website"
+          # name -> rotation to apply (degrees, counter-clockwise positive in PIL terms)
+          jobs = {
+              "IMG20261118095729.jpg": 90,   # Riverbank Tales: landscape book, stored rotated
+              "IMG20261118095846.jpg": 0,    # Baby Touch: Toys: square, upright
+          }
+          out_dir = ".source-covers"
+          os.makedirs(out_dir, exist_ok=True)
+          for name, angle in jobs.items():
+              url = f"{base}/storage/v1/object/public/{urllib.parse.quote(bucket)}/{urllib.parse.quote(name)}"
+              with urllib.request.urlopen(url, timeout=90) as response:
+                  data = response.read()
+              image = Image.open(io.BytesIO(data)).convert("RGB")
+              width, height = image.size
+              scale = min(1.0, 1000.0 / max(width, height))
+              if scale < 1.0:
+                  image = image.resize((round(width * scale), round(height * scale)), Image.LANCZOS)
+              if angle:
+                  image = image.rotate(angle, expand=True)
+              image.save(os.path.join(out_dir, name), "JPEG", quality=85, optimize=True)
+              print(f"ok {name} orig={width}x{height} rot={angle} out={image.size}")
+          PY
+
+      - name: Commit covers
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f .source-covers
+          git diff --cached --quiet || git commit -m "Add source covers for final two books"
+          git push || true
