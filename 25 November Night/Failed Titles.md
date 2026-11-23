@@ -16,18 +16,19 @@ These were attempted exactly once and then skipped, as instructed. Retrying the 
 produces the same refusal, so they need a different approach (for example a cover-only
 product shot without the character artwork) if they are ever wanted.
 
-## Not attempted — per-turn generation limit
+## Resolved
 
-| File | Title | Reason |
-| ---- | ----- | ------ |
-| 10 | Harry and the Robots | Turn's generation cap was reached before this title was attempted |
-| 26 | Corduroy Goes to the Doctor | Never attempted — the cap was used up by two mirror retries |
-| 27 | Kiss Hello, Kiss Good-bye | Never attempted — the cap was used up by two mirror retries |
+These were originally listed here as skipped by the per-turn generation limit. They have since
+been generated:
 
-These three were not refused; they simply ran out of generation slots in their turn and are
-safe to retry as-is.
+| File | Title | Note |
+| ---- | ----- | ---- |
+| 26 | Corduroy Goes to the Doctor | Generated in the follow-up pass |
+| 27 | Kiss Hello, Kiss Good-bye | Generated in the follow-up pass |
+| 41 | Harry and the Robots | Generated in the follow-up pass; filed at 41 because 10 was already taken by *Here We Are Activity Book* |
 
-## Gaps in this folder
+## Tally
 
-`10`, `13`, `14`, `18`, `26`, `27` have no image. Every other number from `01` to `37` is a
-finished 1638 × 2048 render.
+41 source books were supplied for this set. **38 are rendered** at 1638 × 2048, and **3 are
+still missing** — all three are the Disney refusals above. Numbers `13`, `14` and `18` are the
+only gaps in the folder.
