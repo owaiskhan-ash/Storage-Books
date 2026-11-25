@@ -3346,9 +3346,34 @@
       "size": 202640
     },
     {
+      "path": "27 November Night Upload/01-hindi-early-learning-book.jpg",
+      "type": "blob",
+      "size": 151980
+    },
+    {
+      "path": "27 November Night Upload/01-whats-the-time-grandma-wolf.jpg",
+      "type": "blob",
+      "size": 219258
+    },
+    {
+      "path": "27 November Night Upload/02-alpha-book-of-mathematics.jpg",
+      "type": "blob",
+      "size": 142309
+    },
+    {
+      "path": "27 November Night Upload/02-bicycles-made-by-hand.jpg",
+      "type": "blob",
+      "size": 177226
+    },
+    {
       "path": "27 November Night Upload/02-the-very-busy-day.jpg",
       "type": "blob",
       "size": 183717
+    },
+    {
+      "path": "27 November Night Upload/03-where-is-mr-fox.jpg",
+      "type": "blob",
+      "size": 168213
     },
     {
       "path": "27 November Night Upload/03-yuck-thats-not-a-monster.jpg",
@@ -3361,9 +3386,34 @@
       "size": 190799
     },
     {
+      "path": "27 November Night Upload/04-the-upper-case-trouble-in-capital-city.jpg",
+      "type": "blob",
+      "size": 154750
+    },
+    {
+      "path": "27 November Night Upload/04-this-little-piggy.jpg",
+      "type": "blob",
+      "size": 105882
+    },
+    {
+      "path": "27 November Night Upload/05-my-first-100-words-in-spanish.jpg",
+      "type": "blob",
+      "size": 151347
+    },
+    {
+      "path": "27 November Night Upload/05-scaredy-mouse.jpg",
+      "type": "blob",
+      "size": 161254
+    },
+    {
       "path": "27 November Night Upload/05-unicorn-and-the-rainbow-poop.jpg",
       "type": "blob",
       "size": 165229
+    },
+    {
+      "path": "27 November Night Upload/06-peppas-christmas-jumper-day.jpg",
+      "type": "blob",
+      "size": 141104
     },
     {
       "path": "27 November Night Upload/06-princess-evies-ponies-indigo.jpg",
@@ -3371,9 +3421,29 @@
       "size": 166467
     },
     {
+      "path": "27 November Night Upload/06-princess-stories.jpg",
+      "type": "blob",
+      "size": 187621
+    },
+    {
       "path": "27 November Night Upload/07-have-you-seen-my-blankie.jpg",
       "type": "blob",
       "size": 207273
+    },
+    {
+      "path": "27 November Night Upload/07-see-inside-your-body.jpg",
+      "type": "blob",
+      "size": 190102
+    },
+    {
+      "path": "27 November Night Upload/07-thats-not-my-lion.jpg",
+      "type": "blob",
+      "size": 115610
+    },
+    {
+      "path": "27 November Night Upload/08-let-it-snow.jpg",
+      "type": "blob",
+      "size": 167944
     },
     {
       "path": "27 November Night Upload/08-mummy-do-you-love-me.jpg",
@@ -3381,9 +3451,24 @@
       "size": 176295
     },
     {
+      "path": "27 November Night Upload/08-the-haunted-castle.jpg",
+      "type": "blob",
+      "size": 178652
+    },
+    {
       "path": "27 November Night Upload/09-bear-cant-sleep.jpg",
       "type": "blob",
       "size": 154214
+    },
+    {
+      "path": "27 November Night Upload/09-magic-with-tables.jpg",
+      "type": "blob",
+      "size": 204108
+    },
+    {
+      "path": "27 November Night Upload/09-my-first-handy-bible.jpg",
+      "type": "blob",
+      "size": 153237
     },
     {
       "path": "27 November Night Upload/10-animal-magic.jpg",
@@ -3391,154 +3476,19 @@
       "size": 117601
     },
     {
-      "path": "27 November Night Upload/README.md",
+      "path": "27 November Night Upload/10-clifford-the-big-red-dog.jpg",
       "type": "blob",
-      "size": 1315
+      "size": 157516
     },
     {
-      "path": "27 November Night Upload/source/IMG20261123111856.jpg",
-      "type": "blob",
-      "size": 3987625
-    },
-    {
-      "path": "27 November Night Upload/source/IMG20261123111907.jpg",
-      "type": "blob",
-      "size": 3009109
-    },
-    {
-      "path": "27 November Night Upload/source/IMG20261123111918.jpg",
-      "type": "blob",
-      "size": 3014541
-    },
-    {
-      "path": "27 November Night Upload/source/IMG20261123111928.jpg",
-      "type": "blob",
-      "size": 3215335
-    },
-    {
-      "path": "27 November Night Upload/source/IMG20261123111938.jpg",
-      "type": "blob",
-      "size": 3354345
-    },
-    {
-      "path": "27 November Night Upload/source/IMG20261123111947.jpg",
-      "type": "blob",
-      "size": 2658876
-    },
-    {
-      "path": "27 November Night Upload/source/IMG20261123111956.jpg",
-      "type": "blob",
-      "size": 3547300
-    },
-    {
-      "path": "27 November Night Upload/source/IMG20261123112008.jpg",
-      "type": "blob",
-      "size": 2955122
-    },
-    {
-      "path": "27 November Night Upload/source/IMG20261123112018.jpg",
-      "type": "blob",
-      "size": 2752591
-    },
-    {
-      "path": "27 November Night Upload/source/IMG20261123112028.jpg",
-      "type": "blob",
-      "size": 2439666
-    },
-    {
-      "path": "28 November Night Upload/01-whats-the-time-grandma-wolf.jpg",
-      "type": "blob",
-      "size": 219258
-    },
-    {
-      "path": "28 November Night Upload/02-bicycles-made-by-hand.jpg",
-      "type": "blob",
-      "size": 177226
-    },
-    {
-      "path": "28 November Night Upload/04-the-upper-case-trouble-in-capital-city.jpg",
-      "type": "blob",
-      "size": 154750
-    },
-    {
-      "path": "28 November Night Upload/05-my-first-100-words-in-spanish.jpg",
-      "type": "blob",
-      "size": 151347
-    },
-    {
-      "path": "28 November Night Upload/06-princess-stories.jpg",
-      "type": "blob",
-      "size": 187621
-    },
-    {
-      "path": "28 November Night Upload/07-see-inside-your-body.jpg",
-      "type": "blob",
-      "size": 190102
-    },
-    {
-      "path": "28 November Night Upload/08-the-haunted-castle.jpg",
-      "type": "blob",
-      "size": 178652
-    },
-    {
-      "path": "28 November Night Upload/09-magic-with-tables.jpg",
-      "type": "blob",
-      "size": 204108
-    },
-    {
-      "path": "28 November Night Upload/10-starting-school.jpg",
+      "path": "27 November Night Upload/10-starting-school.jpg",
       "type": "blob",
       "size": 165065
     },
     {
-      "path": "29 November Night Upload/01-hindi-early-learning-book.jpg",
+      "path": "27 November Night Upload/README.md",
       "type": "blob",
-      "size": 151980
-    },
-    {
-      "path": "29 November Night Upload/02-alpha-book-of-mathematics.jpg",
-      "type": "blob",
-      "size": 142309
-    },
-    {
-      "path": "29 November Night Upload/03-where-is-mr-fox.jpg",
-      "type": "blob",
-      "size": 168213
-    },
-    {
-      "path": "29 November Night Upload/04-this-little-piggy.jpg",
-      "type": "blob",
-      "size": 105882
-    },
-    {
-      "path": "29 November Night Upload/05-scaredy-mouse.jpg",
-      "type": "blob",
-      "size": 161254
-    },
-    {
-      "path": "29 November Night Upload/06-peppas-christmas-jumper-day.jpg",
-      "type": "blob",
-      "size": 141104
-    },
-    {
-      "path": "29 November Night Upload/07-thats-not-my-lion.jpg",
-      "type": "blob",
-      "size": 115610
-    },
-    {
-      "path": "29 November Night Upload/08-let-it-snow.jpg",
-      "type": "blob",
-      "size": 167944
-    },
-    {
-      "path": "29 November Night Upload/09-my-first-handy-bible.jpg",
-      "type": "blob",
-      "size": 153237
-    },
-    {
-      "path": "29 November Night Upload/10-clifford-the-big-red-dog.jpg",
-      "type": "blob",
-      "size": 157516
+      "size": 1695
     },
     {
       "path": "7th Nov Day/01-head-shoulders-knees-and-toes.jpg",
