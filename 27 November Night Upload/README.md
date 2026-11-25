@@ -2,7 +2,7 @@
 
 All regenerated book marketing images are collected in this folder for a single website collection. Original source photos are not included.
 
-## Generated covers (36 images)
+## Generated covers (39 images)
 - By Janet Martin (cover title partly obscured in source)
 - The Very Busy Day — Diana Hendry and Jane Chapman
 - Yuck! — Vanessa Lees and Helen Mather
@@ -39,8 +39,9 @@ All regenerated book marketing images are collected in this folder for a single 
 - My Little Pony: Little First Look and Find
 - Peek-a-Boo Halloween
 - Touch and Feel Bedtime
+- 101 Dalmatians
+- Aladdin
+- Disney Puppy Pals: Don't Rain on My Pug-rade
 
-## Skipped
-- 101 Dalmatians — one generation attempt failed, so it was skipped as requested.
-- Aladdin — one generation attempt failed, so it was skipped as requested.
-- Disney Puppy Pals: Don't Rain on My Pug-rade — one generation attempt failed, so it was skipped as requested.
+## Generation notes
+The three covers above were added using direct compositing of the supplied photos after image generation did not succeed. All regenerated marketing images are in this single folder.
