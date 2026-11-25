@@ -2,7 +2,7 @@
 
 All regenerated book marketing images are collected in this folder for a single website collection. Original source photos are not included.
 
-## Generated covers (29 images)
+## Generated covers (36 images)
 - By Janet Martin (cover title partly obscured in source)
 - The Very Busy Day — Diana Hendry and Jane Chapman
 - Yuck! — Vanessa Lees and Helen Mather
@@ -32,6 +32,15 @@ All regenerated book marketing images are collected in this folder for a single 
 - Let It Snow! — Charles Reasoner
 - My First Handy Bible
 - Clifford the Big Red Dog
+- First 100 Words (yellow illustrated vocabulary board book)
+- Click, Clack, Moo: Cows That Type — Doreen Cronin and Betsy Lewin
+- Splash, Baby! — Karen Katz
+- Pets / Animals vocabulary board book
+- My Little Pony: Little First Look and Find
+- Peek-a-Boo Halloween
+- Touch and Feel Bedtime
 
 ## Skipped
 - 101 Dalmatians — one generation attempt failed, so it was skipped as requested.
+- Aladdin — one generation attempt failed, so it was skipped as requested.
+- Disney Puppy Pals: Don't Rain on My Pug-rade — one generation attempt failed, so it was skipped as requested.
