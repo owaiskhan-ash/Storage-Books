@@ -4,7 +4,7 @@
 #
 # This removes the image blobs from every commit, not just from the current tree,
 # so a fresh clone stops carrying them. It rewrites history and therefore has to
-# force-push. Read the notes in docs/history-purge.md before running it.
+# force-push. Read the notes in scripts/HISTORY-PURGE.md before running it.
 #
 # Usage:
 #   CONFIRM=yes ./scripts/purge-history.sh
