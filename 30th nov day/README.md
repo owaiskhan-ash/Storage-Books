@@ -1,7 +1,7 @@
-# 27 November Day
+# 30th nov day
 
 Forty-four children's books analysed from cover photographs and rendered as hyper-realistic
-book marketing images. Each render keeps the original cover artwork, lettering and
+book marketing images for the 30 November collection, previously filed under 27 November Day. Each render keeps the original cover artwork, lettering and
 layout intact, brightens the cover slightly, corrects any rotation in the source
 photograph, and stands the book perfectly upright, dead-on and un-skewed as the hero
 of a 4:5 frame. Every image is a single continuous scene: no compositing, no collage,
