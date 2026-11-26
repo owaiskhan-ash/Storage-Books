@@ -1,6 +1,6 @@
 # 27 November Day
 
-Forty children's books analysed from cover photographs and rendered as hyper-realistic
+Forty-four children's books analysed from cover photographs and rendered as hyper-realistic
 book marketing images. Each render keeps the original cover artwork, lettering and
 layout intact, brightens the cover slightly, corrects any rotation in the source
 photograph, and stands the book perfectly upright, dead-on and un-skewed as the hero
@@ -50,7 +50,11 @@ no added text overlays.
 | 37 | The Groovycorns Glow Palace | Make and Play | Press-out and sticker activity book | Candy-bright, crafty, exuberant | Cobalt blue, candy pink, rainbow pastels, silver | Press-out unicorns with rainbow manes, pastel castle with rainbow arches, yellow splat badge, sticker strip | Big silver display type with a flowing script second line | Rotated 90 degrees in the photo, reference pre-rotated upright |
 | 38 | The Little Engine That Could | Watty Piper, with new art by Loren Long | Classic perseverance story, abridged edition | Warm, vintage, determined | Ochre yellow, engine blue, red, purple, green | Blue toy steam engine with a determined face, toy-filled train cars, purple elephant, clown, teddy, toy soldier | Blue outlined capitals, red and blue credits | Rotated 90 degrees in the photo, reference pre-rotated upright |
 | 39 | PAW Patrol: The Badges Book | Nickelodeon, Story Reader me reader | Badge novelty board book | Bright, collectible, heroic | Deep blue, silver, red, orange, yellow | Fan of eight embossed shield badges around a central silver paw print badge | Two-tone orange and yellow display type, shield logo | Already upright |
-| 40 | A Very Merry Christmas | Maudie Powell-Tuck, illustrated by Gill Guile | Festive Christmas board book | Cosy, magical, wintry | Deep navy, warm red, forest green, gold | Fox in a holly scarf, mouse in a knitted hat opening a gift, white rabbit with a candy cane, decorated tree, gold stars | Elegant white flowing script | Rotated 90 degrees in the photo, reference pre-rotated upright, render pending |
+| 40 | A Very Merry Christmas | Maudie Powell-Tuck, illustrated by Gill Guile | Festive Christmas board book | Cosy, magical, wintry | Deep navy, warm red, forest green, gold | Fox in a holly scarf, mouse in a knitted hat opening a gift, white rabbit with a candy cane, decorated tree, gold stars | Elegant white flowing script | Rotated 90 degrees in the photo, reference pre-rotated upright |
+| 41 | Baby's First Bible: A CarryAlong Treasury | The First Bible Collection | Carry-along Bible treasury board book | Warm, gentle, traditional | Golden yellow, leaf green, red, cream | Jesus among children of many skin tones, deer, dove, rainbow, camels, swan, sheep, hedgehog, tortoise, puppy, pink birds | White script title on a green arched panel | Already upright, moulded carry handle kept |
+| 42 | The Tiger and the Jackal | Vivian French, illustrated by Alison Bartlett, introduced by Michael Rosen | Folk-tale picture book | Bold, lively, jungle-warm | Grass green, orange, yellow, warm brown | Orange striped tiger with a toothy grin beside a friendly brown jackal, painted foliage | Chunky yellow display type with a Share a Story badge | Already upright |
+| 43 | The Usborne Little Book of the Seashore | Usborne | Nature guide for young readers | Sunny, natural, calm | Sand yellow, orange, sky blue, cream | Large textured starfish, spiral shells, seagulls, blue starfish border | Sky-blue serif with a cursive initial | Already upright |
+| 44 | The Three Wishes | David Melling | Whimsical fairy-tale picture book | Playful, golden, medieval | Golden yellow, silver, red, sky blue, green | Knight on a rearing white horse, lion shield, stone archway, tiny dragon, flying bananas, lollipop tree, pointing hands | Fine black letterspaced capitals | Already upright |
 
 ## Generation status
 
@@ -95,24 +99,25 @@ no added text overlays.
 | `37-the-groovycorns-glow-palace.png` | The Groovycorns Glow Palace | Done, orientation corrected |
 | `38-the-little-engine-that-could.png` | The Little Engine That Could | Done, orientation corrected |
 | `39-paw-patrol-the-badges-book.png` | PAW Patrol: The Badges Book | Done |
-| `40-a-very-merry-christmas.png` | A Very Merry Christmas | Pending, per-turn image cap reached |
+| `40-a-very-merry-christmas.png` | A Very Merry Christmas | Done, orientation corrected |
+| `41-babys-first-bible.png` | Baby's First Bible | Done |
+| `42-the-tiger-and-the-jackal.png` | The Tiger and the Jackal | Done |
+| `43-usborne-little-book-of-the-seashore.png` | The Usborne Little Book of the Seashore | Done |
+| `44-the-three-wishes.png` | The Three Wishes | Done |
 
-Thirty-eight of the forty titles are rendered. The rotated or inverted source photographs
+Forty-three of the forty-four titles are rendered. The rotated or inverted source photographs
 (Baby's Lullaby, My Best Friend is a Unicorn, Clifford, How to Babysit a Grandpa,
 Let's Find Owl, Where Is My Butt?, Daniel Tiger, The Gruffalo Puppet Book, Usborne At Home) were pre-rotated upright before rendering so the covers are
 reproduced the right way up.
 
 ## Skipped or refused
 
-Titles 1 to 31 and 33 to 39 all rendered, including the licensed character covers
-(PAW Patrol, Clifford, Spot, Thomas, Disney) and the in-copyright picture books.
-
-One title is blocked and one is outstanding:
+Every title rendered except one, including the licensed character covers (PAW Patrol,
+Clifford, Spot, Thomas, Disney) and the in-copyright picture books.
 
 - **32 Cinderella's Golden Locks** was declined twice by the image content filter, which
   appears to react to the physical golden-hair novelty threaded through the die-cut top
-  edge of the board book. Repeating it would need that novelty described differently.
-- **40 A Very Merry Christmas** is correct and ready, but the per-turn image generation
-  limit of ten was reached first, so it will be rendered on the next pass.
+  edge of the board book. It is the only title still outstanding.
+- **40 A Very Merry Christmas** rendered on the follow-up pass.
 
-Thirty-eight of the forty titles are rendered at this point.
+Forty-three of the forty-four titles are rendered.
