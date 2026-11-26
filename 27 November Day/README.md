@@ -1,6 +1,6 @@
 # 27 November Day
 
-Thirty children's books analysed from cover photographs and rendered as hyper-realistic
+Forty children's books analysed from cover photographs and rendered as hyper-realistic
 book marketing images. Each render keeps the original cover artwork, lettering and
 layout intact, brightens the cover slightly, corrects any rotation in the source
 photograph, and stands the book perfectly upright, dead-on and un-skewed as the hero
@@ -41,6 +41,16 @@ no added text overlays.
 | 28 | Usborne First Words: At Home | Usborne | First-words board book | Bright, domestic, simple | Bright red, white, purple, yellow | Toddler reading on a purple cushion, labelled mug, telephone, cat, teddy, fruit, doll | Big white sans title | Inverted in the photo, reference pre-rotated 180 degrees |
 | 29 | We're Not Sleepy! | Joanne Partis | Bedtime counting picture book | Cheeky, nocturnal, warm | Deep navy, golden hay, orange, pink | Three cheeky cats on a hay bale, purple fence, crescent moon with a sheep | Bold orange and pink display type with a round find-and-count badge | Already upright |
 | 30 | PAW Patrol: Itty-Bitty Kitty Rescue | Nickelodeon | Licensed character storybook | Energetic, sunny, heroic | Sky blue, red, orange, grass green | Marshall with a kitten on his helmet, Skye, Chase, Rocky and Rubble, seaside town | Navy outlined caps, badge logo | Already upright |
+| 31 | A Hug for Me, A Hug for You | Caroline Silva, illustrated by Gabi Murphy | Bedtime hug picture book | Soft, cosy, loving | Powder blue, cream, warm tan, teal, soft red | Mother bunny cuddling a sleeping baby bunny, toy turtle, teddy, rabbit lamp, polka-dot quilt | Bubbly cream lettering with spot texture | Already upright |
+| 32 | Cinderella's Golden Locks | Disney Press | Disney Princess novelty board book | Sweet, magical, collectible | Golden yellow, powder blue, pastel pink, white | Illustrated princess with golden hair, blue choker, die-cut top notch with a golden tassel trim | Decorative dark blue script | Already upright, render blocked by content filter |
+| 33 | Baby Bear Finger Puppet Book | Illustrated by Yu-Hsuan Huang | Finger-puppet board book | Friendly, outdoorsy, sweet | Pale yellow-green, leaf green, warm brown, red | Plush brown bear puppet face set into the cover, woodland trees hung with red berries | Bold black sans with a smaller subtitle | Rotated 90 degrees in the photo, reference pre-rotated upright |
+| 34 | Twinkle, Twinkle Little Star | Sing-along Books | Sing-along nursery board book | Sleepy, starry, nostalgic | Deep night blue, crimson, yellow, ginger | Girl in bunny pyjamas holding a grey plush bunny, ginger cat on the windowsill, red curtains, one bright star | Bold yellow display type with a yellow music band | Already upright |
+| 35 | The Tale of Two Bad Mice | Beatrix Potter, Bloomsbury and Frederick Warne | Classic illustrated tale | Gentle, nostalgic, whimsical | Sage green, cream, soft brown, black | Mouse sweeping in a central oval vignette, four corner vignettes (cat, rabbit, duck, old lady mouse) | Ornate black capitals inside a fine oval frame | Rotated 90 degrees in the photo, reference pre-rotated upright |
+| 36 | Tell the Time with Thomas | Thomas and Friends | Clock-face novelty board book | Bright, friendly, instructive | Sky blue, Thomas blue, red, green, orange | Thomas the tank engine with his grey face, moving clock face, station, signalman with a flag, cat on the roof | Black and orange display type, roundel logo | Already upright |
+| 37 | The Groovycorns Glow Palace | Make and Play | Press-out and sticker activity book | Candy-bright, crafty, exuberant | Cobalt blue, candy pink, rainbow pastels, silver | Press-out unicorns with rainbow manes, pastel castle with rainbow arches, yellow splat badge, sticker strip | Big silver display type with a flowing script second line | Rotated 90 degrees in the photo, reference pre-rotated upright |
+| 38 | The Little Engine That Could | Watty Piper, with new art by Loren Long | Classic perseverance story, abridged edition | Warm, vintage, determined | Ochre yellow, engine blue, red, purple, green | Blue toy steam engine with a determined face, toy-filled train cars, purple elephant, clown, teddy, toy soldier | Blue outlined capitals, red and blue credits | Rotated 90 degrees in the photo, reference pre-rotated upright |
+| 39 | PAW Patrol: The Badges Book | Nickelodeon, Story Reader me reader | Badge novelty board book | Bright, collectible, heroic | Deep blue, silver, red, orange, yellow | Fan of eight embossed shield badges around a central silver paw print badge | Two-tone orange and yellow display type, shield logo | Already upright |
+| 40 | A Very Merry Christmas | Maudie Powell-Tuck, illustrated by Gill Guile | Festive Christmas board book | Cosy, magical, wintry | Deep navy, warm red, forest green, gold | Fox in a holly scarf, mouse in a knitted hat opening a gift, white rabbit with a candy cane, decorated tree, gold stars | Elegant white flowing script | Rotated 90 degrees in the photo, reference pre-rotated upright, render pending |
 
 ## Generation status
 
@@ -76,14 +86,33 @@ no added text overlays.
 | `28-usborne-first-words-at-home.png` | Usborne First Words: At Home | Done, orientation corrected |
 | `29-were-not-sleepy.png` | We're Not Sleepy! | Done |
 | `30-paw-patrol-itty-bitty-kitty-rescue.png` | PAW Patrol: Itty-Bitty Kitty Rescue | Done |
+| `31-a-hug-for-me-a-hug-for-you.png` | A Hug for Me, A Hug for You | Done |
+| `32-cinderellas-golden-locks.png` | Cinderella's Golden Locks | Blocked by content filter, two attempts declined |
+| `33-baby-bear-finger-puppet-book.png` | Baby Bear Finger Puppet Book | Done, orientation corrected |
+| `34-twinkle-twinkle-little-star.png` | Twinkle, Twinkle Little Star | Done |
+| `35-the-tale-of-two-bad-mice.png` | The Tale of Two Bad Mice | Done, orientation corrected |
+| `36-tell-the-time-with-thomas.png` | Tell the Time with Thomas | Done |
+| `37-the-groovycorns-glow-palace.png` | The Groovycorns Glow Palace | Done, orientation corrected |
+| `38-the-little-engine-that-could.png` | The Little Engine That Could | Done, orientation corrected |
+| `39-paw-patrol-the-badges-book.png` | PAW Patrol: The Badges Book | Done |
+| `40-a-very-merry-christmas.png` | A Very Merry Christmas | Pending, per-turn image cap reached |
 
-All thirty titles are complete. The rotated or inverted source photographs
+Thirty-eight of the forty titles are rendered. The rotated or inverted source photographs
 (Baby's Lullaby, My Best Friend is a Unicorn, Clifford, How to Babysit a Grandpa,
 Let's Find Owl, Where Is My Butt?, Daniel Tiger, The Gruffalo Puppet Book, Usborne At Home) were pre-rotated upright before rendering so the covers are
 reproduced the right way up.
 
 ## Skipped or refused
 
-None. No title was refused for copyright reasons and every cover rendered, including
-the licensed character titles (PAW Patrol, Clifford, Spot) and the in-copyright
-picture books.
+Titles 1 to 31 and 33 to 39 all rendered, including the licensed character covers
+(PAW Patrol, Clifford, Spot, Thomas, Disney) and the in-copyright picture books.
+
+One title is blocked and one is outstanding:
+
+- **32 Cinderella's Golden Locks** was declined twice by the image content filter, which
+  appears to react to the physical golden-hair novelty threaded through the die-cut top
+  edge of the board book. Repeating it would need that novelty described differently.
+- **40 A Very Merry Christmas** is correct and ready, but the per-turn image generation
+  limit of ten was reached first, so it will be rendered on the next pass.
+
+Thirty-eight of the forty titles are rendered at this point.
