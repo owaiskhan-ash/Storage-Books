@@ -1,6 +1,6 @@
 # 27th Nov Day
 
-Forty-one children's books analysed from cover photographs and rendered as hyper-realistic
+Forty-five children's books analysed from cover photographs and rendered as hyper-realistic
 book marketing images. Each render keeps the original cover artwork, lettering and
 layout intact, brightens the cover slightly, corrects any rotation in the source
 photograph, and stands the book perfectly upright, dead-on and un-skewed as the hero
@@ -44,7 +44,7 @@ no added text overlays.
 | 31 | Peek-A-Boo | Illustrated by Francesca Ferri | Baby peek-a-boo board book | Bold, playful, high contrast | Deep blue, mustard yellow, warm brown, white | Cartoon puppy draped over the yellow panel, paws gripping the edge | Chunky dark brown hand lettering | Rotated 90 degrees in the photo, reference pre-rotated upright |
 | 32 | There's a Bear on My Chair | Ross Collins | Comic standoff picture book | Dry, deadpan, stylish | Deep teal, white, warm yellow, red, grey | White polar bear on a yellow chair, indignant grey mouse in a red jumper, award seal and audio-badge stickers | White chalky hand lettering | Rotated 90 degrees in the photo, reference pre-rotated upright |
 | 33 | David Smells! (A Diaper David Book) | David Shannon | Naive-painting baby board book | Cheeky, messy, funny | Terracotta red, ochre, pale blue grey, teal | Baby with huge round head holding its bare foot, scribbled eyes and lashes | Rough black childlike handwriting | Already upright |
-| 34 | Party Time! | Amazing Baby | Sing-along board book with CD | Bright, bouncy, celebratory | Candy pink, sky blue, lime, coral, black, cream | Balloons, birthday cake with candles, baby in a polka-dot party hat, CD holder set into the cover | Big white hand lettering across the black quadrant | Already upright, embedded CD kept |
+| 34 | Party Time! | Amazing Baby | Sing-along board book with CD | Bright, bouncy, celebratory | Candy pink, sky blue, lime, coral, black, cream | Balloons, birthday cake with candles, baby in a polka-dot party hat, CD holder set into the cover | Big white hand lettering across the black quadrant | Rotated 90 degrees in the photo; the first render kept the source orientation and was redone clockwise, embedded CD kept |
 | 35 | It's Pumpkin Day, Mouse! | Laura Numeroff, illustrated by Felicia Bond | Halloween picture book | Autumnal, cosy, cheerful | Mustard yellow, pumpkin orange, brick red, soft green, brown | Carved jack-o'-lantern among fallen leaves, mouse in dungarees with a paintbrush | Bold red brush capitals | Already upright, price sticker left out |
 | 36 | You Can Name 100 Dinosaurs! | Illustrated by Randy Chewning, and Other Prehistoric Animals | Shaped dinosaur board book | Prehistoric, curious, bright | Leaf green, orange brown, watercolour ochre, blue | Die-cut long-necked dinosaur with back plates, prehistoric riverbank, numbered roundel 100 | Orange and red caps with a blue roundel | Rotated 90 degrees in the photo, reference pre-rotated upright, die-cut silhouette preserved |
 | 37 | The Girl, The Bear and the Magic Shoes | Julia Donaldson and Lydia Monks | Glittery fairy-tale adventure | Magical, sparkly, adventurous | Sky blue, grass green, white, glitter red, turquoise | Polar bear head, girl with glasses and red wellies, castle, red-sailed boat, glitter banner | Multicoloured glitter raised letters | Rotated 90 degrees in the photo, reference pre-rotated upright |
@@ -52,6 +52,10 @@ no added text overlays.
 | 39 | The Jungle Book | Read it yourself with Ladybird, Level 3 | Classic jungle reader | Adventurous, lush, reassuring | Jungle green, bright blue, warm brown, cream | Boy on a vine, brown bear, black panther, Ladybird level badge | White serif with a blue spine band | Already upright, price label and barcode left out, cropped out of a two-book photo |
 | 40 | Alice in Wonderland | Illustrated by Mauro Evangelista, Usborne | Classic fantasy picture book | Whimsical, dreamlike, elegant | Sage green, hot pink, cream, gold, check red and yellow | Alice in a rose-print gown, bowing Mad Hatter, White Rabbit with a pocket watch, playing-card people | Slender hot-pink serif capitals | Already upright |
 | 41 | The Family Computer (Peppa Pig) | Read it yourself with Ladybird, Level 1 | Licensed TV character reader | Bright, friendly, domestic | Red, yellow, purple, pink | Peppa with glasses and the pig family at a computer | White chalky title over the yellow panel | Already upright, cropped out of a two-book photo, render deferred to the next batch |
+| 42 | ABC Dinosaurs | American Museum of Natural History | Natural history alphabet board book | Bold, cinematic, educational | Grass green, bright orange, amber yellow, studio blue | Realistic banded theropod across the middle, fine dot-pattern ground, ABC in three colours | Huge coloured caps with white outlines over tall white lowercase | Already upright, barcode sticker and library label left out |
+| 43 | The Superstar Cow | Melanie Joyce, illustrated by Richard Watson | Farmyard comedy picture book | Cheeky, theatrical, loud | Bright blue, purple, red, black and white, green | Grinning cow with hair rollers, marquee arch of bulbs, clapperboard, studio lights, milk churn, film crates | Rounded white display lettering inside the arch | Already upright |
+| 44 | I Love Owls | Nature facts board book | Bright, factual, engaging | Hot pink, turquoise, white, sandy brown, gold | Snowy owl with owlets, owl in flight, holographic sparkle lettering | Holographic "I Love" with yellow sparkle "Owls" | Rotated 180 degrees in the photo, reference pre-rotated upright |
+| 45 | The Gigantic Turnip | Aleksei Tolstoy, illustrated by Niamh Sharkey, Barefoot | Folk-tale picture book | Earthy, quirky, hand-painted | Deep aubergine brown, pumpkin orange, leafy green, cream | Giant orange turnip with green top, two folk-art figures on top, red star, award seal | Bold classic serif with black credits | Already upright |
 
 ## Generation status
 
@@ -90,7 +94,7 @@ no added text overlays.
 | `31-peek-a-boo.png` | Peek-A-Boo | Done, orientation corrected |
 | `32-theres-a-bear-on-my-chair.png` | There's a Bear on My Chair | Done, orientation corrected |
 | `33-david-smells.png` | David Smells! | Done |
-| `34-party-time.png` | Party Time! | Done, embedded CD kept |
+| `34-party-time.png` | Party Time! | Re-rendered: the first pass left the cover sideways, corrected 90 degrees clockwise |
 | `35-its-pumpkin-day-mouse.png` | It's Pumpkin Day, Mouse! | Done |
 | `36-you-can-name-100-dinosaurs.png` | You Can Name 100 Dinosaurs! | Done, orientation corrected, die-cut shape preserved |
 | `37-the-girl-the-bear-and-the-magic-shoes.png` | The Girl, The Bear and the Magic Shoes | Done, orientation corrected |
@@ -98,13 +102,18 @@ no added text overlays.
 | `39-the-jungle-book.png` | The Jungle Book | Done |
 | `40-alice-in-wonderland.png` | Alice in Wonderland | Done |
 | `41-the-family-computer.png` | The Family Computer (Peppa Pig) | Owed: image cap of 10 already spent this batch |
+| `42-abc-dinosaurs.png` | ABC Dinosaurs | Done |
+| `43-the-superstar-cow.png` | The Superstar Cow | Done |
+| `44-i-love-owls.png` | I Love Owls | Done, orientation corrected |
+| `45-the-gigantic-turnip.png` | The Gigantic Turnip | Done |
 
-Thirty-eight of the forty-one titles are rendered. Sixteen source photographs were not
-upright (the bear, winter, baby play, bath, counting, snail, monsters, rainbow, panda,
-Wreck-It Ralph, Santa, Rudolph, Peek-A-Boo, Bear on My Chair, 100 Dinosaurs and Magic
-Shoes covers) and each reference was pre-rotated with ImageMagick before rendering,
-verified on a contact sheet first: the panda needed 180 degrees and the rest 90 degrees,
-seven of them counter-clockwise.
+Forty-two of the forty-five titles are rendered. Eighteen source photographs were not
+upright: the bear, winter, baby play, bath, counting, snail, monsters, rainbow, panda,
+Wreck-It Ralph, Santa, Rudolph, Peek-A-Boo, Bear on My Chair, 100 Dinosaurs, Magic Shoes,
+Party Time and I Love Owls covers. Each reference is pre-rotated with ImageMagick before
+rendering and checked on a contact sheet: Wanted Panda and I Love Owls needed 180 degrees,
+the rest 90 degrees, seven of them counter-clockwise. Party Time was the one that slipped
+through, rendered in its source orientation, and was redone clockwise after review.
 
 ## Skipped or refused
 
