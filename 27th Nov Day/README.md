@@ -1,6 +1,6 @@
 # 27th Nov Day
 
-Twenty children's books analysed from cover photographs and rendered as hyper-realistic
+Thirty children's books analysed from cover photographs and rendered as hyper-realistic
 book marketing images. Each render keeps the original cover artwork, lettering and
 layout intact, brightens the cover slightly, corrects any rotation in the source
 photograph, and stands the book perfectly upright, dead-on and un-skewed as the hero
@@ -31,6 +31,16 @@ no added text overlays.
 | 18 | Twinkle Twinkle Little Star | Kate Toms | Handmade bedtime rhyme book | Handcrafted, dreamy, snug | Midnight blue, silver grey, golden yellow, warm brown, dusky purple | Yellow appliqué star with polka dots, stitched fabric mouse, button stars, city skyline silhouette | Staggered silver and yellow hand lettering | Already upright |
 | 19 | Wanted Panda | Playful panda picture book | Cheeky, warm, playful | Fresh, comic, friendly | Leaf green, white, soft black, candy pink, cornflower blue | Panda on its back with bamboo, bamboo-textured WANTED lettering, pink PANDA, blue pawprints | Fat bamboo and hand-painted capitals | Rotated 180 degrees in the photo, reference pre-rotated upright |
 | 20 | The Little Mermaid | Illustrated by Alan Marks, Usborne | Undersea fairy tale picture book | Dreamy, watery, classical | Aqua, turquoise, deep sea blue, coral orange, purple | Mermaid on a dolphin, streaming green hair, bubbles, coral, shoal of fish, small octopus | Elegant purple serif capitals | Already upright, promotional sticker left out |
+| 21 | Wreck-It Ralph | Disney, Wonderful World of Reading | Licensed film storybook | Bold, comic, warm-hearted | Mint green, brick red, orange, teal, cream | Ralph in his plaid shirt beside Vanellope in her teal hoodie, arcade sweets | Blocky red pixel-lettered caps | Rotated 90 degrees in the photo, reference pre-rotated upright, render blocked by content filter |
+| 22 | My Big Book of Spanish Words | Rebecca Emberley | Bilingual first-words picture book | Bright, graphic, educational | Deep blue, mustard yellow, lime green, purple, orange red | Paper-cut tricycle, dog, pig, moon, goose, socks, car and plant, each labelled in English and Spanish | Textured red caps with white hand lettering | Already upright |
+| 23 | Here Comes Santa! | Christmas novelty board book | Sparkly, festive, tactile | Deep blue night sky, glitter white, red, gold, green | Santa, four reindeer in gold harness, elves, snowman, sleigh piled with presents | Black hand lettering across the sky | Rotated 90 degrees in the photo, reference pre-rotated upright, price sticker left out |
+| 24 | Cub's First Winter | Rebecca Elliott | Winter animal picture book | Tender, warm, cosy | Russet orange, cream white, deep brown, soft grey | Mother fox curled around a sleeping cub, oil brushstroke fur | White serif italic capitals | Already upright |
+| 25 | My First Word Sticker Board Book | DK | Sticker activity board book | Bright, busy, first-words | White, DK red, yellow, orange, blue, green, pink | Raised 3D letters, sticker squares, shopping trolley, socks on a line, peeled page corner | Chunky 3D raised lettering with white sticker squares | Already upright, price sticker and barcode left out |
+| 26 | Gigantosaurus | Jonny Duddle | Comic dinosaur picture book | Cheeky, adventurous, lush | Jungle green, mustard yellow, pale teal, brick red | Four cartoon dinosaurs on a fallen log with a bow and a bone club, hidden dinosaur eyes, Netflix badge | Weathered mustard caps across the log | Already upright |
+| 27 | Supertato: Veggies in the Valley of Doom | Sue Hendra and Paul Linnet | Superhero vegetable picture book | Comic, dramatic, high energy | Jungle green, crimson, iridescent blue, mustard, cream | Supertato in an eye mask with an S belt, cucumber, pineapple, butternut squash and chilli, lurking eyes | Iridescent foil caps over a red banner | Already upright |
+| 28 | Teddy Bears' Counting Book | Brimax | Tabbed counting board book | Nostalgic, gentle, classic | Cream, teddy tan, bright red, grass green, sky blue | Ten dressed teddy bears walking a path, ten tabbed bear portraits along the top, yellow butterfly | Bold red serif with black rhyming couplets | Already upright, index tabs preserved |
+| 29 | Rudolph the Red-Nosed Reindeer | Christmas board book | Classic festive, sweet | Winter blue, crisp white, red, pine green, gold | Clay-style young reindeer with a red nose, blonde girl in a blue coat, snowman, decorated tree, gold border | Tall red caps with a patterned gold strip | Rotated 90 degrees in the photo, reference pre-rotated upright |
+| 30 | Snowball | Sue Hendra and Paul Linnet | Playful winter picture book | Cheerful, bouncy, sparkly | Bright blue, crisp white, silver glitter, yellow orange, forest green | Round snowball character with twig arms and a knitted scarf, two rabbits, a robin, glitter snowflakes | Silver glitter-filled capitals | Already upright |
 
 ## Generation status
 
@@ -56,15 +66,30 @@ no added text overlays.
 | `18-twinkle-twinkle-little-star.png` | Twinkle Twinkle Little Star | Done |
 | `19-wanted-panda.png` | Wanted Panda | Done, orientation corrected |
 | `20-the-little-mermaid.png` | The Little Mermaid | Done |
+| `21-wreck-it-ralph.png` | Wreck-It Ralph | Blocked by content filter, two attempts declined |
+| `22-my-big-book-of-spanish-words.png` | My Big Book of Spanish Words | Done |
+| `23-here-comes-santa.png` | Here Comes Santa! | Done, orientation corrected |
+| `24-cubs-first-winter.png` | Cub's First Winter | Done |
+| `25-my-first-word-sticker-board-book.png` | My First Word Sticker Board Book | Done |
+| `26-gigantosaurus.png` | Gigantosaurus | Done |
+| `27-supertato-veggies-in-the-valley-of-doom.png` | Supertato: Veggies in the Valley of Doom | Done |
+| `28-teddy-bears-counting-book.png` | Teddy Bears' Counting Book | Done, index tabs preserved |
+| `29-rudolph-the-red-nosed-reindeer.png` | Rudolph the Red-Nosed Reindeer | Done, orientation corrected |
+| `30-snowball.png` | Snowball | Done |
 
-Nineteen of the twenty titles are rendered. Nine source photographs were not upright
-(the bear, winter, baby play, bath, counting, snail, monsters, rainbow and panda covers)
-and each reference was pre-rotated with ImageMagick before rendering, verified on a
-contact sheet first: the panda needed 180 degrees, the rest 90 degrees clockwise.
+Twenty-eight of the thirty titles are rendered. Twelve source photographs were not
+upright (the bear, winter, baby play, bath, counting, snail, monsters, rainbow, panda,
+Wreck-It Ralph, Santa and Rudolph covers) and each reference was pre-rotated with
+ImageMagick before rendering, verified on a contact sheet first: the panda needed 180
+degrees, the rest 90 degrees clockwise.
 
 ## Skipped or refused
 
 - **06 Star Wars: Journey to The Last Jedi Colouring Book** was declined twice by the
   image content filter. The first attempt described the character's glowing energy
   staff, the second softened it to a staff and dropped it from the floating props;
-  both were refused. It is the only title outstanding in this collection.
+  both were refused. Retry owed.
+- **21 Wreck-It Ralph** was declined twice as well. The first wording described the
+  giant holding the small girl in his open palm, the second described the two
+  characters standing side by side with no contact; both were refused, and the
+  per-turn image cap of ten was reached before a third could be tried. Retry owed.
