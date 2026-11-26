@@ -1,6 +1,6 @@
 # 27 November Day
 
-Twenty children's books analysed from cover photographs and rendered as hyper-realistic
+Thirty children's books analysed from cover photographs and rendered as hyper-realistic
 book marketing images. Each render keeps the original cover artwork, lettering and
 layout intact, brightens the cover slightly, corrects any rotation in the source
 photograph, and stands the book perfectly upright, dead-on and un-skewed as the hero
@@ -31,6 +31,16 @@ no added text overlays.
 | 18 | Family is | Clever Family Stories, illustrated by Katya Longhi | Family and counting board book | Bright, inclusive, happy | Sunny yellow, red, sky blue, orange | Mother and children reading in an armchair, boy in a wheelchair, girl, father and son on a stool, white dog, hearts | Huge outlined red display type with a heart over the i | Already upright |
 | 19 | Let's Find Owl | Amber Lily | Lift-the-flap night-time search | Calm, curious, nocturnal | Navy blue, mint teal, yellow, black | Plump mint owl, smiling striped bee on a dashed flight path, yellow stars, flap badge | White and yellow serif title with a yellow flap badge | Rotated 90 degrees in the photo, reference pre-rotated upright |
 | 20 | Elmer's Weather | David McKee | Weather concept board book | Sunny, playful, iconic | Bright yellow, patchwork rainbow, orange | Patchwork Elmer in striped sunglasses holding a red flower, orange sun disc | Tall black capitals set vertically down the right edge | Already upright |
+| 21 | Where Is My Butt? | Donald Budge, illustrated by Daron Parton | Underwater novelty board book | Silly, playful, breezy | Bright blue, white, orange, red | Seal-like creature in a red bobble hat, glowing jellyfish, ice shapes | Bouncy white and orange display type | Rotated 90 degrees in the photo, reference pre-rotated upright |
+| 22 | Daniel Tiger's Neighborhood: My First 100 Neighborhood Words | Fred Rogers Productions | First-words padded board book | Friendly, bright, educational | Red, white, warm tan | Daniel Tiger in his red sweater, labelled objects, printed 100 motif | Red and black sans with a repeating number motif | Rotated 90 degrees in the photo, reference pre-rotated upright |
+| 23 | Spooky Pants | Priddy Books | Turn-the-wheel novelty | Silly, spooky-cute, bold | Purple, lime green, orange, yellow | Green spotted monster with a belt buckle, paint splats, turn arrow | Chunky orange and yellow caps in a black oval | Already upright |
+| 24 | Peppa Pig: Little Creatures and The Family Computer | Ladybird, Read it yourself Level 1 | Early-reader pair | Cheerful, familiar, simple | Purple, grass green, yellow, Peppa pink | Peppa and George with a bee and a snail, the family around a desktop computer | White rounded sans on a red spine band | Already upright, rendered as a matching two-book set |
+| 25 | Peter Rabbit's 1 2 3 | Beatrix Potter | Classic counting board book | Nostalgic, gentle, botanical | Pale blue-grey, warm red, sage green | Peter Rabbit, a mouse and a rabbit holding number cards, bumblebee, vine border | Red serif title inside a blue vine frame | Already upright |
+| 26 | Newton and the Big Mess | Rory Tyger | Picture book about tidying up | Warm, funny, chaotic | Deep red, golden yellow, cream | Golden bear cub among jumbled toys, scooter, wagon wheel | White brush script with a handwritten subtitle | Already upright |
+| 27 | The Gruffalo Puppet Book | Julia Donaldson, illustrated by Axel Scheffler | Novelty puppet board book | Cosy, mischievous, woodland | Forest brown, red, sky blue, leaf green | Plush Gruffalo face, fox, squirrel, blue butterfly, My First Gruffalo badge | White and yellow lettering on red and blue panels | Rotated 90 degrees in the photo, reference pre-rotated upright |
+| 28 | Usborne First Words: At Home | Usborne | First-words board book | Bright, domestic, simple | Bright red, white, purple, yellow | Toddler reading on a purple cushion, labelled mug, telephone, cat, teddy, fruit, doll | Big white sans title | Inverted in the photo, reference pre-rotated 180 degrees |
+| 29 | We're Not Sleepy! | Joanne Partis | Bedtime counting picture book | Cheeky, nocturnal, warm | Deep navy, golden hay, orange, pink | Three cheeky cats on a hay bale, purple fence, crescent moon with a sheep | Bold orange and pink display type with a round find-and-count badge | Already upright |
+| 30 | PAW Patrol: Itty-Bitty Kitty Rescue | Nickelodeon | Licensed character storybook | Energetic, sunny, heroic | Sky blue, red, orange, grass green | Marshall with a kitten on his helmet, Skye, Chase, Rocky and Rubble, seaside town | Navy outlined caps, badge logo | Already upright |
 
 ## Generation status
 
@@ -56,10 +66,20 @@ no added text overlays.
 | `18-family-is.png` | Family is | Done |
 | `19-lets-find-owl.png` | Let's Find Owl | Done, orientation corrected |
 | `20-elmers-weather.png` | Elmer's Weather | Done |
+| `21-where-is-my-butt.png` | Where Is My Butt? | Done, orientation corrected |
+| `22-daniel-tiger-my-first-100-neighborhood-words.png` | Daniel Tiger: My First 100 Neighborhood Words | Done, orientation corrected |
+| `23-spooky-pants.png` | Spooky Pants | Done |
+| `24-peppa-pig-read-it-yourself-pair.png` | Peppa Pig: Little Creatures / The Family Computer | Done, two-book set |
+| `25-peter-rabbits-123.png` | Peter Rabbit's 1 2 3 | Done |
+| `26-newton-and-the-big-mess.png` | Newton and the Big Mess | Done |
+| `27-the-gruffalo-puppet-book.png` | The Gruffalo Puppet Book | Done, orientation corrected |
+| `28-usborne-first-words-at-home.png` | Usborne First Words: At Home | Done, orientation corrected |
+| `29-were-not-sleepy.png` | We're Not Sleepy! | Done |
+| `30-paw-patrol-itty-bitty-kitty-rescue.png` | PAW Patrol: Itty-Bitty Kitty Rescue | Done |
 
-All twenty titles are complete. The rotated or inverted source photographs
+All thirty titles are complete. The rotated or inverted source photographs
 (Baby's Lullaby, My Best Friend is a Unicorn, Clifford, How to Babysit a Grandpa,
-Let's Find Owl) were pre-rotated upright before rendering so the covers are
+Let's Find Owl, Where Is My Butt?, Daniel Tiger, The Gruffalo Puppet Book, Usborne At Home) were pre-rotated upright before rendering so the covers are
 reproduced the right way up.
 
 ## Skipped or refused
