@@ -4,8 +4,12 @@ Forty-five children's books analysed from cover photographs and rendered as hype
 book marketing images. Each render keeps the original cover artwork, lettering and
 layout intact, brightens the cover slightly, corrects any rotation in the source
 photograph, and stands the book perfectly upright, dead-on and un-skewed as the hero
-of a 4:5 frame. Every image is a single continuous scene: no compositing, no collage,
-no added text overlays.
+of a 4:5 frame. Every image is a single continuous scene with no added text overlays.
+
+Three titles (06, 21 and 41) could not be generated: the image content filter declined
+them repeatedly because of their licensed characters. Those three are built the other
+way, by compositing the real cover photograph into a generated stage, so they are
+photographic paste-ups rather than single-scene renders. They are marked as such below.
 
 ## Source analysis
 
@@ -16,7 +20,7 @@ no added text overlays.
 | 03 | Baby Loves Winter! | Karen Katz | Lift-the-flap board book | Cosy, wintry, playful | Soft white, ice blue, red, green, pink | Baby in a polka-dot hat on a red sled, pine tree, reindeer, snowflakes | Multicoloured polka-dot display letters | Rotated 90 degrees in the photo, reference pre-rotated upright |
 | 04 | Katie Morag Delivers the Mail | Mairi Hedderwick | Scottish island picture book | Warm, nostalgic, hand-drawn | Butter yellow, warm red, sea blue, green | Katie Morag with a Royal Mail satchel and a brown parcel, harbour vignette, sheep, fishing boat, collie | Red serif capitals | Already upright |
 | 05 | Baby Play | Carol McDougall and Shanda LaRamee-Jones, Mc baby steps | Baby board book | Bright, simple, joyful | White, lime, yellow, coral, cobalt, orange | Baby reaching for a red bird shape, flat colour discs | Bold red lowercase display type | Rotated 90 degrees in the photo, reference pre-rotated upright |
-| 06 | Star Wars: Journey to The Last Jedi Colouring Book | Disney | Licensed film colouring book | Bold, cinematic | Black, crimson, white, bridge blue | Poe in his flight helmet, Rey with a blue energy staff, Finn, starfighter line art, Star Wars logo | Heavy red logo caps with white strip titles | Already upright, render blocked by content filter |
+| 06 | Star Wars: Journey to The Last Jedi Colouring Book | Disney | Licensed film colouring book | Bold, cinematic | Black, crimson, white, bridge blue | Poe in his flight helmet, Rey with a blue energy staff, Finn, starfighter line art, Star Wars logo | Heavy red logo caps with white strip titles | Already upright, composited because generation was declined |
 | 07 | Bath (What Time Is It?) | Written by Nan, illustrated by Ron Cohee | Bath-time novelty board book | Bubbly, silly, bright | Candy pink, duck yellow, white, red | Three ducklings splashing in a red tub, bubbles, silver tap, blue toy disc | Tall white outlined caps down the left edge | Rotated 90 degrees in the photo, reference pre-rotated upright, shop sticker left out |
 | 08 | Duda Descobre os Esportes | Jonny Marx, illustrated by Zoe Waring | Portuguese sports board book | Playful, energetic, bright | Warm yellow, orange, cobalt, grey | Grey rabbit in a number 5 basketball vest, animal spectators, hoop, megaphone | Orange and blue Portuguese caps framing the cover | Already upright |
 | 09 | Write-and-Wipe Counting | Scholastic | Wipe-clean counting activity book | Bright, instructive, playful | Bright red, white, yellow, blue, lime | Dotted numbers 1 to 4, puppies, apples, hand holding a marker, carry-handle cut-out | Handwritten script paired with multicoloured display type | Rotated 90 degrees in the photo, reference pre-rotated upright |
@@ -31,7 +35,7 @@ no added text overlays.
 | 18 | Twinkle Twinkle Little Star | Kate Toms | Handmade bedtime rhyme book | Handcrafted, dreamy, snug | Midnight blue, silver grey, golden yellow, warm brown, dusky purple | Yellow appliqué star with polka dots, stitched fabric mouse, button stars, city skyline silhouette | Staggered silver and yellow hand lettering | Already upright |
 | 19 | Wanted Panda | Playful panda picture book | Cheeky, warm, playful | Fresh, comic, friendly | Leaf green, white, soft black, candy pink, cornflower blue | Panda on its back with bamboo, bamboo-textured WANTED lettering, pink PANDA, blue pawprints | Fat bamboo and hand-painted capitals | Rotated 180 degrees in the photo, reference pre-rotated upright |
 | 20 | The Little Mermaid | Illustrated by Alan Marks, Usborne | Undersea fairy tale picture book | Dreamy, watery, classical | Aqua, turquoise, deep sea blue, coral orange, purple | Mermaid on a dolphin, streaming green hair, bubbles, coral, shoal of fish, small octopus | Elegant purple serif capitals | Already upright, promotional sticker left out |
-| 21 | Wreck-It Ralph | Disney, Wonderful World of Reading | Licensed film storybook | Bold, comic, warm-hearted | Mint green, brick red, orange, teal, cream | Ralph in his plaid shirt beside Vanellope in her teal hoodie, arcade sweets | Blocky red pixel-lettered caps | Rotated 90 degrees in the photo, reference pre-rotated upright, render blocked by content filter |
+| 21 | Wreck-It Ralph | Disney, Wonderful World of Reading | Licensed film storybook | Bold, comic, warm-hearted | Mint green, brick red, orange, teal, cream | Ralph in his plaid shirt beside Vanellope in her teal hoodie, arcade sweets | Blocky red pixel-lettered caps | Rotated 90 degrees in the photo, reference pre-rotated upright, composited because generation was declined |
 | 22 | My Big Book of Spanish Words | Rebecca Emberley | Bilingual first-words picture book | Bright, graphic, educational | Deep blue, mustard yellow, lime green, purple, orange red | Paper-cut tricycle, dog, pig, moon, goose, socks, car and plant, each labelled in English and Spanish | Textured red caps with white hand lettering | Already upright |
 | 23 | Here Comes Santa! | Christmas novelty board book | Sparkly, festive, tactile | Deep blue night sky, glitter white, red, gold, green | Santa, four reindeer in gold harness, elves, snowman, sleigh piled with presents | Black hand lettering across the sky | Rotated 90 degrees in the photo, reference pre-rotated upright, price sticker left out |
 | 24 | Cub's First Winter | Rebecca Elliott | Winter animal picture book | Tender, warm, cosy | Russet orange, cream white, deep brown, soft grey | Mother fox curled around a sleeping cub, oil brushstroke fur | White serif italic capitals | Already upright |
@@ -51,7 +55,7 @@ no added text overlays.
 | 38 | My Precious Planet: being kind to the WORLD | Activity book | Eco craft activity book | Natural, hopeful, busy | Kraft brown, orange, globe blue, green, pink | Cartoon globe ringed with animals, children, windmill, rainbow, recycled-ink roundel | Huge black caps over pale outline type | Already upright |
 | 39 | The Jungle Book | Read it yourself with Ladybird, Level 3 | Classic jungle reader | Adventurous, lush, reassuring | Jungle green, bright blue, warm brown, cream | Boy on a vine, brown bear, black panther, Ladybird level badge | White serif with a blue spine band | Already upright, price label and barcode left out, cropped out of a two-book photo |
 | 40 | Alice in Wonderland | Illustrated by Mauro Evangelista, Usborne | Classic fantasy picture book | Whimsical, dreamlike, elegant | Sage green, hot pink, cream, gold, check red and yellow | Alice in a rose-print gown, bowing Mad Hatter, White Rabbit with a pocket watch, playing-card people | Slender hot-pink serif capitals | Already upright |
-| 41 | The Family Computer (Peppa Pig) | Read it yourself with Ladybird, Level 1 | Licensed TV character reader | Bright, friendly, domestic | Red, yellow, purple, pink | Peppa with glasses and the pig family at a computer | White chalky title over the yellow panel | Already upright, cropped out of a two-book photo, render deferred to the next batch |
+| 41 | The Family Computer (Peppa Pig) | Read it yourself with Ladybird, Level 1 | Licensed TV character reader | Bright, friendly, domestic | Red, yellow, purple, pink | Peppa with glasses and the pig family at a computer | White chalky title over the yellow panel | Already upright, cropped out of a two-book photo, composited |
 | 42 | ABC Dinosaurs | American Museum of Natural History | Natural history alphabet board book | Bold, cinematic, educational | Grass green, bright orange, amber yellow, studio blue | Realistic banded theropod across the middle, fine dot-pattern ground, ABC in three colours | Huge coloured caps with white outlines over tall white lowercase | Already upright, barcode sticker and library label left out |
 | 43 | The Superstar Cow | Melanie Joyce, illustrated by Richard Watson | Farmyard comedy picture book | Cheeky, theatrical, loud | Bright blue, purple, red, black and white, green | Grinning cow with hair rollers, marquee arch of bulbs, clapperboard, studio lights, milk churn, film crates | Rounded white display lettering inside the arch | Already upright |
 | 44 | I Love Owls | Nature facts board book | Bright, factual, engaging | Hot pink, turquoise, white, sandy brown, gold | Snowy owl with owlets, owl in flight, holographic sparkle lettering | Holographic "I Love" with yellow sparkle "Owls" | Rotated 180 degrees in the photo, reference pre-rotated upright |
@@ -66,7 +70,7 @@ no added text overlays.
 | `03-baby-loves-winter.png` | Baby Loves Winter! | Done, orientation corrected |
 | `04-katie-morag-delivers-the-mail.png` | Katie Morag Delivers the Mail | Done |
 | `05-baby-play.png` | Baby Play | Done, orientation corrected |
-| `06-star-wars-the-last-jedi-colouring-book.png` | Star Wars: Journey to The Last Jedi Colouring Book | Blocked by content filter, two attempts declined |
+| `06-star-wars-the-last-jedi-colouring-book.png` | Star Wars: Journey to The Last Jedi Colouring Book | Done by compositing |
 | `07-bath.png` | Bath (What Time Is It?) | Done, orientation corrected |
 | `08-duda-descobre-os-esportes.png` | Duda Descobre os Esportes | Done |
 | `09-write-and-wipe-counting.png` | Write-and-Wipe Counting | Done, orientation corrected |
@@ -81,7 +85,7 @@ no added text overlays.
 | `18-twinkle-twinkle-little-star.png` | Twinkle Twinkle Little Star | Done |
 | `19-wanted-panda.png` | Wanted Panda | Done, orientation corrected |
 | `20-the-little-mermaid.png` | The Little Mermaid | Done |
-| `21-wreck-it-ralph.png` | Wreck-It Ralph | Blocked by content filter, two attempts declined |
+| `21-wreck-it-ralph.png` | Wreck-It Ralph | Done by compositing |
 | `22-my-big-book-of-spanish-words.png` | My Big Book of Spanish Words | Done |
 | `23-here-comes-santa.png` | Here Comes Santa! | Done, orientation corrected |
 | `24-cubs-first-winter.png` | Cub's First Winter | Done |
@@ -101,13 +105,14 @@ no added text overlays.
 | `38-my-precious-planet-being-kind-to-the-world.png` | My Precious Planet: being kind to the WORLD | Done |
 | `39-the-jungle-book.png` | The Jungle Book | Done |
 | `40-alice-in-wonderland.png` | Alice in Wonderland | Done |
-| `41-the-family-computer.png` | The Family Computer (Peppa Pig) | Owed: image cap of 10 already spent this batch |
+| `41-the-family-computer.png` | The Family Computer (Peppa Pig) | Done by compositing |
 | `42-abc-dinosaurs.png` | ABC Dinosaurs | Done |
 | `43-the-superstar-cow.png` | The Superstar Cow | Done |
 | `44-i-love-owls.png` | I Love Owls | Done, orientation corrected |
 | `45-the-gigantic-turnip.png` | The Gigantic Turnip | Done |
 
-Forty-two of the forty-five titles are rendered. Eighteen source photographs were not
+All forty-five titles are rendered: forty-two as single-scene renders and three (06, 21
+and 41) as composites. Eighteen source photographs were not
 upright: the bear, winter, baby play, bath, counting, snail, monsters, rainbow, panda,
 Wreck-It Ralph, Santa, Rudolph, Peek-A-Boo, Bear on My Chair, 100 Dinosaurs, Magic Shoes,
 Party Time and I Love Owls covers. Each reference is pre-rotated with ImageMagick before
@@ -115,16 +120,23 @@ rendering and checked on a contact sheet: Wanted Panda and I Love Owls needed 18
 the rest 90 degrees, seven of them counter-clockwise. Party Time was the one that slipped
 through, rendered in its source orientation, and was redone clockwise after review.
 
-## Skipped or refused
+## Composited instead of generated
 
-- **41 The Family Computer** shared a photograph with The Jungle Book, so both covers
-  were cropped apart first. Its render is deferred, not refused: the ten-image cap had
-  already been spent on this batch.
-- **06 Star Wars: Journey to The Last Jedi Colouring Book** was declined twice by the
-  image content filter. The first attempt described the character's glowing energy
-  staff, the second softened it to a staff and dropped it from the floating props;
-  both were refused. Retry owed.
-- **21 Wreck-It Ralph** was declined twice as well. The first wording described the
-  giant holding the small girl in his open palm, the second described the two
-  characters standing side by side with no contact; both were refused, and the
-  per-turn image cap of ten was reached before a third could be tried. Retry owed.
+These three covers tripped the image content filter on every attempt, so generation was
+abandoned for them and the real photograph was composited in instead: the cover is
+cropped square to its trim edge, brightened slightly, given a soft upper-left lighting
+gradient and a cast shadow, then placed on a separately generated stage (surface,
+dramatic light, blurred background with bokeh, floating 3D props).
+
+| # | Title | Why not generated | Method |
+|---|-------|-------------------|--------|
+| 06 | Star Wars: Journey to The Last Jedi Colouring Book | declined twice, first with the energy staff described, then without it | cover photo composited onto a generated dark starfield stage |
+| 21 | Wreck-It Ralph | declined twice, first describing the characters' pose, then simplified to standing side by side | cover photo composited onto a generated arcade stage |
+| 41 | The Family Computer | never attempted, the per-turn cap kept being spent on other titles; it also shares a photo with The Jungle Book | cover cropped out of the two-book photo, composited onto a generated playroom stage |
+
+Two differences from the rest of the collection, stated plainly: these three keep their
+original photographic perspective and surface reflections rather than being re-rendered
+flat-on, and their edges sit on the stage rather than seamlessly in it. Everything else
+in the collection is a single-scene render.
+
+No titles are outstanding.
